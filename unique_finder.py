@@ -2,8 +2,8 @@
 import sys
 
 if len(sys.argv) < 2:
-    print 'Usage:   python main.py <filename>'
-    print 'Example: python main.py ~/Downloads/file.txt'
+    print 'Usage:   python unique_finder.py <filename>'
+    print 'Example: python unique_finder.py ~/Downloads/file.txt'
     sys.exit()
 
 from sets import Set
