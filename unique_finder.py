@@ -11,7 +11,7 @@ topics = Set()
 file = open(sys.argv[1])
 for line in file:
     for element in line.split(';'):
-        topics.add(element.strip())
+        topics.add(element.strip().lower())
 
 print sorted(topics)
 
